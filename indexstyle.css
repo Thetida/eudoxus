@@ -1,0 +1,134 @@
+#menu1{
+color:#f2992e ;
+font-size: 19px;
+font-weight: bolder;
+padding-bottom: 5px;
+padding-top: 5px;
+
+}
+
+#menu1:hover{
+color:red ;
+}
+
+#submenu{
+color:#000000;
+padding-left: 15px;
+}
+
+#submenu:hover{
+color:#f0bfb3;
+}
+#leftmenu{
+padding-top:10px 0 0 10px;
+background-repeat: no-repeat;
+list-style:none;
+}
+
+#searchbox{
+	height:150px;
+	width:300px;
+	float:right;
+	
+}
+#content{
+	background-color:white;
+	width:70%;
+	height:600%;
+	padding-top: 30px;
+	float:center
+}
+#content1{
+font-weight:bolder;
+list-style:none;
+}
+
+#rightmenu{ 
+    width:100px;
+    height:100%;
+	float:right;
+	list-style:none;
+	}
+#rightmenu li{
+text-align:right
+}
+	
+	*{
+	margin:0;
+	padding:0;
+	}
+#navigation{
+	width:500px;
+	margin:-5px 250px 100px;
+	height:80px;
+	overflow:hidden;
+	list-style:none;
+}
+#navigation li{
+	float:left;
+	line-height:40px;
+	list-style:none;
+	
+}
+#navigation li a{
+    color:#000000;
+	text-align: center;
+	text-decoration:none;
+	padding:15px 10px 15px 10px;
+	
+	border-left:2px solid #fff;   <!--kathetes leukes grames sto orizodio menu-->
+}
+#navigation li a:hover{
+	background-color:#f0bfb3;   <!-to xroma tu gyro keimenou otan pas to koubi--> 
+}
+#navigation li:hover > ul{
+	left:auto;
+top:auto;
+}
+#navigation li ul{
+	position:absolute;
+	left:-999px;	
+	border-bottom:5px solid #e89e8c;
+	background:#e89e8c;
+}
+#navigation li ul li {
+	float:none;
+	display: block;
+	min-width:150px;
+}
+#navigation li ul li a{
+	font-size:14px;
+	display:block;
+	border:none !important;
+	padding:3px 5px 3px 5px;
+}
+#navigation li ul li a:hover{
+	text-decoration:none;
+}
+#navigation9{
+	width:500px;
+	margin:-5px 300px 100px;
+	height:80px;
+	overflow:hidden;
+	list-style:none;
+}
+#navigation9 li{
+	float:left;
+	line-height:40px;
+	list-style:none;
+	
+}
+#navigation9 li a{
+    color:#000000;
+	text-align: center;
+	text-decoration:none;
+	padding:15px 10px 15px 10px;
+	
+	border-left:2px solid #fff;   /*kathetes leukes grames sto orizodio menu*/
+}
+#navigation9 li a:hover{
+	background-color:#f0bfb3;   /*to xroma tu gyro keimenou otan pas to button*/
+}
+#keimeno{
+text-align:center;
+}

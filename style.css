@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+* { padding:0; margin:0; }
+body { background:#e17e66; }
+label { display:block; }
+p { margin:0px; padding:0px; }
+#myform {
+	position:relative;
+	background:white;
+	width:220px;
+	margin:auto;
+	margin-top:50px;
+	padding:15px;
+	border:1px solid lightgrey;
+	border-radius: 15px;
+	
+}
+#h4style {
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	top:-18px;
+}
+input[type=submit] { padding:5px; margin-top:10px ; }
+
+#menu1{
+background-color:#e17e66;
+
+
+
+}
+
+#submenu{
+background-color:#e17e66;
+
+
+
+
+}
+
+
+}
